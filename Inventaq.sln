@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClass1", "Console\ConsoleClass1.csproj", "{659040DC-2790-4E74-BC0A-B54669F35E62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{67D61331-3F91-4751-95A4-9A0BD767ADDB}"
+	ProjectSection(SolutionItems) = preProject
+		Definations.txt = Definations.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Litreals", "Litreals\Litreals.csproj", "{3B928ED3-3B1A-40EC-8B2F-49372536DEED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{659040DC-2790-4E74-BC0A-B54669F35E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659040DC-2790-4E74-BC0A-B54669F35E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659040DC-2790-4E74-BC0A-B54669F35E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659040DC-2790-4E74-BC0A-B54669F35E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B928ED3-3B1A-40EC-8B2F-49372536DEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B928ED3-3B1A-40EC-8B2F-49372536DEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B928ED3-3B1A-40EC-8B2F-49372536DEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B928ED3-3B1A-40EC-8B2F-49372536DEED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74B59CB5-BDBE-438A-AE94-449CFCECDA55}
+	EndGlobalSection
+EndGlobal
