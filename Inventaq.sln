@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Litreals", "Litreals\Litrea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeCasting", "TypeCasting\TypeCasting.csproj", "{21BA3FB2-0EC2-4D19-9556-35F0E271BC55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Operators.csproj", "{23757F8E-4909-49FE-84F0-F1C240380F04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{21BA3FB2-0EC2-4D19-9556-35F0E271BC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21BA3FB2-0EC2-4D19-9556-35F0E271BC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21BA3FB2-0EC2-4D19-9556-35F0E271BC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23757F8E-4909-49FE-84F0-F1C240380F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23757F8E-4909-49FE-84F0-F1C240380F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23757F8E-4909-49FE-84F0-F1C240380F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23757F8E-4909-49FE-84F0-F1C240380F04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
