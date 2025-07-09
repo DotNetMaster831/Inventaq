@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessSpecifiersDemo", "Acc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationDemo", "EncapsulationDemo\EncapsulationDemo.csproj", "{7A8F8491-0E67-47EC-9995-D06391330757}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceDemo", "InheritanceDemo\InheritanceDemo.csproj", "{C01C0A97-7804-4BE7-944D-AC41113731F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +112,10 @@ Global
 		{7A8F8491-0E67-47EC-9995-D06391330757}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A8F8491-0E67-47EC-9995-D06391330757}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A8F8491-0E67-47EC-9995-D06391330757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C01C0A97-7804-4BE7-944D-AC41113731F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01C0A97-7804-4BE7-944D-AC41113731F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C01C0A97-7804-4BE7-944D-AC41113731F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C01C0A97-7804-4BE7-944D-AC41113731F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
