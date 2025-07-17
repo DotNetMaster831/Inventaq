@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C01C0A97-7804-4BE7-944D-AC41113731F0}</ProjectGuid>
+    <ProjectGuid>{0C5921A6-A39D-4DEA-A089-D2E5C2A9C498}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>InheritanceDemo</RootNamespace>
-    <AssemblyName>InheritanceDemo</AssemblyName>
+    <RootNamespace>AbstractionDemo</RootNamespace>
+    <AssemblyName>AbstractionDemo</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,8 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EcapsulationData">
-      <HintPath>..\..\Inventaq_Lib\EcapsulationData\EcapsulationData\bin\Debug\EcapsulationData.dll</HintPath>
+    <Reference Include="AbstractionData">
+      <HintPath>..\..\Inventaq_Lib\EcapsulationData\EcapsulationData\bin\Debug\AbstractionData.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,12 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BankAccount.cs" />
-    <Compile Include="Interface1.cs" />
-    <Compile Include="Payment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

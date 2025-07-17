@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using EcapsulationData;
 
 namespace InheritanceDemo
 {
@@ -27,7 +24,10 @@ namespace InheritanceDemo
             //Hierarchical Inheritance
             //Multiple Inheritance
 
+            Console.WriteLine();
 
+            SBI obj3 = new SBI();
+            
 
 
         }

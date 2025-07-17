@@ -1,4 +1,5 @@
 ﻿using System;
+using MyOwnConsole;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,14 +17,19 @@ namespace AccessSpecifiersDemo
             //Internal --> 
 
 
-            BankUser user1 = new BankUser();
-            Console.WriteLine(user1.UserName);
-            Console.WriteLine(user1.AccountNumber);
-            Console.WriteLine(user1.AccountBalance);
-            Console.WriteLine(user1.BankBranch);
-            Console.WriteLine(user1.BankName);
-            Console.WriteLine(user1.LastWithdrawnAmmount);
-            Console.WriteLine(user1.LastDepositedAmmount);
+            //BankUser user1 = new BankUser();
+            //Console.WriteLine(user1.UserName);
+            //Console.WriteLine(user1.AccountNumber);
+            //Console.WriteLine(user1.AccountBalance);
+            //Console.WriteLine(user1.BankBranch);
+            //Console.WriteLine(user1.BankName);
+            //Console.WriteLine(user1.LastWithdrawnAmmount);
+            //Console.WriteLine(user1.LastDepositedAmmount);
+
+
+            Console.WriteLine("Hello World");
+            InputOutput.Print("Hello World");
+
         }
     }
 

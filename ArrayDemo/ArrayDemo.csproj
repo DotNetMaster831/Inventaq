@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C01C0A97-7804-4BE7-944D-AC41113731F0}</ProjectGuid>
+    <ProjectGuid>{CE9D0E5F-157D-464F-B600-F5A5BAC068E0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>InheritanceDemo</RootNamespace>
-    <AssemblyName>InheritanceDemo</AssemblyName>
+    <RootNamespace>ArrayDemo</RootNamespace>
+    <AssemblyName>ArrayDemo</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EcapsulationData">
-      <HintPath>..\..\Inventaq_Lib\EcapsulationData\EcapsulationData\bin\Debug\EcapsulationData.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,12 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BankAccount.cs" />
-    <Compile Include="Interface1.cs" />
-    <Compile Include="Payment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
